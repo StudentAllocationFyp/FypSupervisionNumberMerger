@@ -22,3 +22,17 @@ D:\GitHub\FypSupervisionMerger\FYP Supervision Merger\bin\Debug\IronXL.dll
 D:\GitHub\FypSupervisionMerger\FYP Supervision Merger\bin\Debug\IronXL.xml
 D:\GitHub\FypSupervisionMerger\FYP Supervision Merger\obj\Debug\FYP Supervision Merger.csproj.CopyComplete
 D:\GitHub\FypSupervisionMerger\FYP Supervision Merger\obj\Debug\FYP Supervision Merger.csproj.ResolveComReference.cache
+D:\GitHub\FypSupervisionNumberMerger123\FYP Supervision Merger\bin\Debug\FYP Supervision Merger.exe.config
+D:\GitHub\FypSupervisionNumberMerger123\FYP Supervision Merger\bin\Debug\FYP Supervision Merger.exe
+D:\GitHub\FypSupervisionNumberMerger123\FYP Supervision Merger\bin\Debug\FYP Supervision Merger.pdb
+D:\GitHub\FypSupervisionNumberMerger123\FYP Supervision Merger\bin\Debug\IronXL.dll
+D:\GitHub\FypSupervisionNumberMerger123\FYP Supervision Merger\bin\Debug\IronXL.xml
+D:\GitHub\FypSupervisionNumberMerger123\FYP Supervision Merger\obj\Debug\FYP Supervision Merger.csprojAssemblyReference.cache
+D:\GitHub\FypSupervisionNumberMerger123\FYP Supervision Merger\obj\Debug\FYP Supervision Merger.csproj.ResolveComReference.cache
+D:\GitHub\FypSupervisionNumberMerger123\FYP Supervision Merger\obj\Debug\FYP_Supervision_Merger.Form1.resources
+D:\GitHub\FypSupervisionNumberMerger123\FYP Supervision Merger\obj\Debug\FYP_Supervision_Merger.Properties.Resources.resources
+D:\GitHub\FypSupervisionNumberMerger123\FYP Supervision Merger\obj\Debug\FYP Supervision Merger.csproj.GenerateResource.cache
+D:\GitHub\FypSupervisionNumberMerger123\FYP Supervision Merger\obj\Debug\FYP Supervision Merger.csproj.CoreCompileInputs.cache
+D:\GitHub\FypSupervisionNumberMerger123\FYP Supervision Merger\obj\Debug\FYP Supervision Merger.csproj.CopyComplete
+D:\GitHub\FypSupervisionNumberMerger123\FYP Supervision Merger\obj\Debug\FYP Supervision Merger.exe
+D:\GitHub\FypSupervisionNumberMerger123\FYP Supervision Merger\obj\Debug\FYP Supervision Merger.pdb

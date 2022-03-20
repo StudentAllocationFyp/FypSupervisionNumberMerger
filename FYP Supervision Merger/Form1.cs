@@ -334,21 +334,6 @@ namespace FYP_Supervision_Merger
             Marshal.ReleaseComObject(ws);
             Marshal.ReleaseComObject(wb);
             Marshal.ReleaseComObject(excel);
-
-
-            int counter = 0;
-            foreach (var x in results)
-            {
-                if (x.Value.IsMerged)
-                {
-                    counter += 1;
-                    Debug.WriteLine(counter + ". " + x.Value.Name);
-                    Debug.WriteLine(x.Value.Sem1);
-                    Debug.WriteLine(x.Value.Sem2);
-                }
-
-            }
-            
         }
         private void DisplayUnmerged()
         {
@@ -416,11 +401,14 @@ namespace FYP_Supervision_Merger
 
                     foreach (var x in results)
                     {
-                        file.Write(x.Key + ",");
-                        file.Write(x.Value.TotalFyp + ",");
-                        file.Write(x.Value.Sem1 + ",");
-                        file.Write(x.Value.TotalFyp - x.Value.Sem1 + ",");
-                        file.WriteLine(x.Value.TotalFyp - x.Value.Sem1 + 2 + ",");
+                        if (x.Value.IsMerged)
+                        {
+                            file.Write(x.Key + ",");
+                            file.Write(x.Value.TotalFyp + ",");
+                            file.Write(x.Value.Sem1 + ",");
+                            file.Write(x.Value.TotalFyp - x.Value.Sem1 + ",");
+                            file.WriteLine(x.Value.TotalFyp - x.Value.Sem1 + 2 + ",");
+                        }
                     }
                 }
             }
@@ -432,11 +420,14 @@ namespace FYP_Supervision_Merger
                     file.WriteLine("Faculty Name,Total FYP,Currently Assigned,Expected to be assigned,Proposals required");
                     foreach (var x in results)
                     {
-                        file.Write(x.Key + ",");
-                        file.Write(x.Value.TotalFyp + ",");
-                        file.Write(x.Value.Sem2 + ",");
-                        file.Write(x.Value.TotalFyp - x.Value.Sem2 + ",");
-                        file.WriteLine(x.Value.TotalFyp - x.Value.Sem2 + 2 + ",");
+                        if (x.Value.IsMerged)
+                        {
+                            file.Write(x.Key + ",");
+                            file.Write(x.Value.TotalFyp + ",");
+                            file.Write(x.Value.Sem2 + ",");
+                            file.Write(x.Value.TotalFyp - x.Value.Sem2 + ",");
+                            file.WriteLine(x.Value.TotalFyp - x.Value.Sem2 + 2 + ",");
+                        }
                     }
                 }
             }
